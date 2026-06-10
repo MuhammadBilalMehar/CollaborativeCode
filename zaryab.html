@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#333;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#444;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+        }
+
+        .hero{
+            height:400px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            background:linear-gradient(135deg,#4facfe,#00f2fe);
+            color:white;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:48px;
+            margin-bottom:10px;
+        }
+
+        .hero p{
+            font-size:20px;
+        }
+
+        .btn{
+            margin-top:20px;
+            padding:12px 25px;
+            background:white;
+            color:#333;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        .content{
+            padding:50px 20px;
+            text-align:center;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            margin-top:30px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            width:300px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>My Website</h2>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome</h1>
+        <p>Simple One Page Website Design</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="content">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Modern and responsive website designs.</p>
+            </div>
+
+            <div class="card">
+                <h3>Development</h3>
+                <p>Fast and secure web applications.</p>
+            </div>
+
+            <div class="card">
+                <h3>SEO</h3>
+                <p>Improve your website ranking on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
